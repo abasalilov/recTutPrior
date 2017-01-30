@@ -1,0 +1,68 @@
+.lesson-list {
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 200px;
+}
+
+.card {
+  width: 30%;
+  min-width: 300px;
+}
+.nav{
+    border:1px solid #ccc;
+    border-width:2px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    font-size: 20px;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:5px;
+}
+
+.lesson {
+  display: inline-block;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  display:flex; flex-direction:row;
+}
+
+.lessonListCol{
+  display: inline-block;
+}
+
+.div1 {
+  float: left;
+  width: 200px;
+  display: inline-block;
+}
+
+.div2 {
+    float: right;
+    width: 200px
+    display: inline-block;
+}
+
+.topDiv {
+  width: 800px;
+}
+
+.sideBar{
+    width:200px;
+    height:200px;
+    background:red;
+    display:block;
+    float:left;
+}
+.mainContent{
+    margin-left: 350px;
+    width:500px;
+    height:auto;
+    display:block;
+    float:left;
+}
